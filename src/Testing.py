@@ -1,6 +1,6 @@
 import torch
 import xarray as xr
-import lightning.pytorch as torch
+import lightning.pytorch as pl
 
 print(f"Is CUDA supported by this system? {torch.cuda.is_available()}")
 print(f"CUDA version: {torch.version.cuda}")
