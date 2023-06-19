@@ -11,3 +11,5 @@ print(f"Found {len(available_devices)} CUDA Devices:")
 
 for idx, gpu_id in enumerate(available_devices):
     print(f"{idx:02}: {torch.cuda.get_device_name(gpu_id)}")
+
+ 
